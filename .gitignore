@@ -1,0 +1,42 @@
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# Environment
+# ==========================
+.env
+.env.*
+
+# ==========================
+# Log Files
+# ==========================
+*.log
+
+# ==========================
+# Operating System
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+
+# ==========================
+# Upload Bukti Pembayaran
+# (jangan upload file dari user)
+# ==========================
+public/assets/bukti/*
+!public/assets/bukti/.gitkeep
+
+# ==========================
+# Upload Gambar Buku
+# (jangan upload file dari user)
+# ==========================
+public/assets/uploads/*
+!public/assets/uploads/.gitkeep
